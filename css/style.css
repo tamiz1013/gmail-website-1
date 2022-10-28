@@ -88,6 +88,7 @@ p {
   background: black;
   opacity: 0.7;
 }
+
 /* responsive */
 
 @media screen and (max-width: 768px) {
@@ -97,12 +98,26 @@ p {
     flex-direction: column;
     border: 2px solid red;
   }
-  ul {
+  /* ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  } */
+  .header-right ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
   .container h1 {
     font-size: 22px;
+  }
+}
+@media screen and (max-width: 968px) {
+  .header {
+    font-size: 10px;
+  }
+
+  .header-right ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
