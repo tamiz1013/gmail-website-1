@@ -77,8 +77,17 @@ p {
   background-color: #222222;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  isolation: isolate;
 }
-
+.content::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: black;
+  opacity: 0.7;
+}
 /* responsive */
 
 @media screen and (max-width: 768px) {
