@@ -83,8 +83,17 @@ p {
 
 @media screen and (max-width: 768px) {
   .header {
+    font-size: 10px;
     display: flex;
     flex-direction: column;
     border: 2px solid red;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .container h1 {
+    font-size: 22px;
   }
 }
