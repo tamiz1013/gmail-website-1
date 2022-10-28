@@ -64,7 +64,7 @@ p {
 .content {
   height: 277px;
   width: 375px;
-  background-image: url("./images/gmail-logo.svg");
+  background-image: url("../images/gmail-logo.svg");
   background-repeat: no-repeat;
   background-size: 100%;
   border: 2px solid orange;
